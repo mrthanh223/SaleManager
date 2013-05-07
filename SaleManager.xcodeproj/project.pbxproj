@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A10E2D617335C850050631E /* MyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A10E2D517335C850050631E /* MyManager.m */; };
 		8A202CBE171D3C50007B863D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A202CBD171D3C50007B863D /* UIKit.framework */; };
 		8A202CC0171D3C50007B863D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A202CBF171D3C50007B863D /* Foundation.framework */; };
 		8A202CC2171D3C50007B863D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A202CC1171D3C50007B863D /* CoreGraphics.framework */; };
@@ -24,6 +25,20 @@
 		8A202CE4171D3C51007B863D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A202CC3171D3C50007B863D /* CoreData.framework */; };
 		8A202CEC171D3C51007B863D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8A202CEA171D3C51007B863D /* InfoPlist.strings */; };
 		8A202CEF171D3C51007B863D /* SaleManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A202CEE171D3C51007B863D /* SaleManagerTests.m */; };
+		8A202CFB171D3C87007B863D /* LoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A202CF9171D3C87007B863D /* LoginView.m */; };
+		8A202CFC171D3C87007B863D /* LoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A202CFA171D3C87007B863D /* LoginView.xib */; };
+		8A202D0A171D4005007B863D /* ScanView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A202D08171D4005007B863D /* ScanView.m */; };
+		8A202D0B171D4005007B863D /* ScanView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A202D09171D4005007B863D /* ScanView.xib */; };
+		8A202D14171D474E007B863D /* MainMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A202D12171D474E007B863D /* MainMenu.m */; };
+		8A202D15171D474E007B863D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A202D13171D474E007B863D /* MainMenu.xib */; };
+		8A6F8F631728E8AE002FAE31 /* black.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A6F8F621728E8AE002FAE31 /* black.png */; };
+		8A6F8F651728E8CF002FAE31 /* white.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A6F8F641728E8CF002FAE31 /* white.png */; };
+		8A6F8F71172913AF002FAE31 /* button1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A6F8F70172913AF002FAE31 /* button1.png */; };
+		8A6F8F7517291E5E002FAE31 /* blaack.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A6F8F7417291E5E002FAE31 /* blaack.png */; };
+		8A6F8F7717291EB8002FAE31 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A6F8F7617291EB8002FAE31 /* background.png */; };
+		8AC9B05F171FF51B006087BB /* InvoicesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC9B05D171FF51B006087BB /* InvoicesView.m */; };
+		8AC9B060171FF51B006087BB /* InvoicesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AC9B05E171FF51B006087BB /* InvoicesView.xib */; };
+		8ADC130D1738FB9900946429 /* buttontrong.png in Resources */ = {isa = PBXBuildFile; fileRef = 8ADC130C1738FB9900946429 /* buttontrong.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +52,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8A10E2D417335C850050631E /* MyManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyManager.h; sourceTree = "<group>"; };
+		8A10E2D517335C850050631E /* MyManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyManager.m; sourceTree = "<group>"; };
 		8A202CB9171D3C50007B863D /* SaleManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SaleManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A202CBD171D3C50007B863D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8A202CBF171D3C50007B863D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -58,6 +75,24 @@
 		8A202CEB171D3C51007B863D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8A202CED171D3C51007B863D /* SaleManagerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SaleManagerTests.h; sourceTree = "<group>"; };
 		8A202CEE171D3C51007B863D /* SaleManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SaleManagerTests.m; sourceTree = "<group>"; };
+		8A202CF8171D3C87007B863D /* LoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginView.h; path = ../LoginView.h; sourceTree = "<group>"; };
+		8A202CF9171D3C87007B863D /* LoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginView.m; path = ../LoginView.m; sourceTree = "<group>"; };
+		8A202CFA171D3C87007B863D /* LoginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LoginView.xib; path = ../LoginView.xib; sourceTree = "<group>"; };
+		8A202D07171D4005007B863D /* ScanView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanView.h; sourceTree = "<group>"; };
+		8A202D08171D4005007B863D /* ScanView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanView.m; sourceTree = "<group>"; };
+		8A202D09171D4005007B863D /* ScanView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScanView.xib; sourceTree = "<group>"; };
+		8A202D11171D474E007B863D /* MainMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenu.h; sourceTree = "<group>"; };
+		8A202D12171D474E007B863D /* MainMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenu.m; sourceTree = "<group>"; };
+		8A202D13171D474E007B863D /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		8A6F8F621728E8AE002FAE31 /* black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = black.png; sourceTree = "<group>"; };
+		8A6F8F641728E8CF002FAE31 /* white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = white.png; sourceTree = "<group>"; };
+		8A6F8F70172913AF002FAE31 /* button1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button1.png; sourceTree = "<group>"; };
+		8A6F8F7417291E5E002FAE31 /* blaack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blaack.png; sourceTree = "<group>"; };
+		8A6F8F7617291EB8002FAE31 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		8AC9B05C171FF51B006087BB /* InvoicesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InvoicesView.h; sourceTree = "<group>"; };
+		8AC9B05D171FF51B006087BB /* InvoicesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InvoicesView.m; sourceTree = "<group>"; };
+		8AC9B05E171FF51B006087BB /* InvoicesView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InvoicesView.xib; sourceTree = "<group>"; };
+		8ADC130C1738FB9900946429 /* buttontrong.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttontrong.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +121,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8A10E2D217335C630050631E /* MyManager */ = {
+			isa = PBXGroup;
+			children = (
+				8A10E2D417335C850050631E /* MyManager.h */,
+				8A10E2D517335C850050631E /* MyManager.m */,
+			);
+			name = MyManager;
+			sourceTree = "<group>";
+		};
 		8A202CAE171D3C50007B863D = {
 			isa = PBXGroup;
 			children = (
@@ -120,9 +164,13 @@
 		8A202CC5171D3C50007B863D /* SaleManager */ = {
 			isa = PBXGroup;
 			children = (
-				8A202CCE171D3C51007B863D /* AppDelegate.h */,
-				8A202CCF171D3C51007B863D /* AppDelegate.m */,
-				8A202CD7171D3C51007B863D /* SaleManager.xcdatamodeld */,
+				8A10E2D217335C630050631E /* MyManager */,
+				8AC9B05A171FF4A2006087BB /* InvoicesView */,
+				8A202D10171D4739007B863D /* MainMenu */,
+				8A202D06171D3FE5007B863D /* ScanView */,
+				8A202CFF171D3CF9007B863D /* Image */,
+				8A202CFE171D3CA1007B863D /* AppDelegate */,
+				8A202CFD171D3C91007B863D /* Login */,
 				8A202CC6171D3C50007B863D /* Supporting Files */,
 			);
 			path = SaleManager;
@@ -159,6 +207,69 @@
 				8A202CEA171D3C51007B863D /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8A202CFD171D3C91007B863D /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				8A202CF8171D3C87007B863D /* LoginView.h */,
+				8A202CF9171D3C87007B863D /* LoginView.m */,
+				8A202CFA171D3C87007B863D /* LoginView.xib */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		8A202CFE171D3CA1007B863D /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				8A202CCE171D3C51007B863D /* AppDelegate.h */,
+				8A202CCF171D3C51007B863D /* AppDelegate.m */,
+				8A202CD7171D3C51007B863D /* SaleManager.xcdatamodeld */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		8A202CFF171D3CF9007B863D /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				8ADC130C1738FB9900946429 /* buttontrong.png */,
+				8A6F8F7617291EB8002FAE31 /* background.png */,
+				8A6F8F7417291E5E002FAE31 /* blaack.png */,
+				8A6F8F70172913AF002FAE31 /* button1.png */,
+				8A6F8F641728E8CF002FAE31 /* white.png */,
+				8A6F8F621728E8AE002FAE31 /* black.png */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
+		8A202D06171D3FE5007B863D /* ScanView */ = {
+			isa = PBXGroup;
+			children = (
+				8A202D07171D4005007B863D /* ScanView.h */,
+				8A202D08171D4005007B863D /* ScanView.m */,
+				8A202D09171D4005007B863D /* ScanView.xib */,
+			);
+			name = ScanView;
+			sourceTree = "<group>";
+		};
+		8A202D10171D4739007B863D /* MainMenu */ = {
+			isa = PBXGroup;
+			children = (
+				8A202D11171D474E007B863D /* MainMenu.h */,
+				8A202D12171D474E007B863D /* MainMenu.m */,
+				8A202D13171D474E007B863D /* MainMenu.xib */,
+			);
+			name = MainMenu;
+			sourceTree = "<group>";
+		};
+		8AC9B05A171FF4A2006087BB /* InvoicesView */ = {
+			isa = PBXGroup;
+			children = (
+				8AC9B05C171FF51B006087BB /* InvoicesView.h */,
+				8AC9B05D171FF51B006087BB /* InvoicesView.m */,
+				8AC9B05E171FF51B006087BB /* InvoicesView.xib */,
+			);
+			name = InvoicesView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +347,16 @@
 				8A202CD2171D3C51007B863D /* Default.png in Resources */,
 				8A202CD4171D3C51007B863D /* Default@2x.png in Resources */,
 				8A202CD6171D3C51007B863D /* Default-568h@2x.png in Resources */,
+				8A202CFC171D3C87007B863D /* LoginView.xib in Resources */,
+				8A202D0B171D4005007B863D /* ScanView.xib in Resources */,
+				8A202D15171D474E007B863D /* MainMenu.xib in Resources */,
+				8AC9B060171FF51B006087BB /* InvoicesView.xib in Resources */,
+				8A6F8F631728E8AE002FAE31 /* black.png in Resources */,
+				8A6F8F651728E8CF002FAE31 /* white.png in Resources */,
+				8A6F8F71172913AF002FAE31 /* button1.png in Resources */,
+				8A6F8F7517291E5E002FAE31 /* blaack.png in Resources */,
+				8A6F8F7717291EB8002FAE31 /* background.png in Resources */,
+				8ADC130D1738FB9900946429 /* buttontrong.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +394,11 @@
 				8A202CCC171D3C51007B863D /* main.m in Sources */,
 				8A202CD0171D3C51007B863D /* AppDelegate.m in Sources */,
 				8A202CD9171D3C51007B863D /* SaleManager.xcdatamodeld in Sources */,
+				8A202CFB171D3C87007B863D /* LoginView.m in Sources */,
+				8A202D0A171D4005007B863D /* ScanView.m in Sources */,
+				8A202D14171D474E007B863D /* MainMenu.m in Sources */,
+				8AC9B05F171FF51B006087BB /* InvoicesView.m in Sources */,
+				8A10E2D617335C850050631E /* MyManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,7 +457,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
@@ -352,6 +478,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
@@ -438,6 +565,7 @@
 				8A202CF4171D3C51007B863D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8A202CF5171D3C51007B863D /* Build configuration list for PBXNativeTarget "SaleManagerTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +574,7 @@
 				8A202CF7171D3C51007B863D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "LoginView.h"
 @implementation AppDelegate
 
 - (void)dealloc
@@ -26,7 +26,11 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
+    LoginView *obj = [[[LoginView alloc] init] initWithNibName:@"LoginView" bundle:nil];
+
+    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:obj];
     // Override point for customization after application launch.
+    //[[UIApplication sharedApplication] setStatusBarHidden:YES withAnimation:UIStatusBarAnimationFade];
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
